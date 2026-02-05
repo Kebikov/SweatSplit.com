@@ -20,7 +20,7 @@
     font-family: 'Oswald';
     font-weight: 500;
     font-size: 26px;
-    color: rgb(240, 240, 240);
+    color: var(--color-white);
 }
 
 .subtitle {
@@ -28,22 +28,23 @@
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 24px;
-    color: #4992d6;
+    color: var(--color-blue);
 }
 
 .subtitle span {
-    color: #9ead31;
+    color: var(--color-lime);
 }
 
 .addText {
     padding: 0px 10px 20px 10px;
     margin-top: 10px;
     font-family: 'Oswald';
+    letter-spacing: 0.5px;
     text-align: center;
     line-height: 120%;
     font-size: 18px;
     font-weight: 300;
-    color: rgb(240, 240, 240);
+    color: var(--color-white);
 }
 
 .soon {
@@ -51,15 +52,7 @@
     font-family: 'Oswald';
     font-weight: 300;
     font-size: 20px;
-    color: rgb(240, 240, 240);
-}
-
-.key {
-    margin-top: 20px;
-    font-family: 'Oswald';
-    font-weight: 400;
-    font-size: 20px;
-    color: rgb(240, 240, 240);
+    color: var(--color-lime);
 }
 
 .ul {
@@ -70,9 +63,36 @@
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Oswald';
+    letter-spacing: 0.5px;
     line-height: 120%;
     font-size: 18px;
     font-weight: 300;
-    color: rgb(240, 240, 240);
+    color: var(--color-white);
     list-style-type: disc;
+}
+
+ul li::marker {
+    color: var(--color-lime);
+}
+
+.settings {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings__img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.key {
+    margin-left: 10px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-white);
 }

@@ -3,6 +3,7 @@ import styles from '../css/app.module.css';
 import Main from './main/Main';
 import Support from "./support/Support";
 import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                         <Route path="/support" element={<Support/>} />
                     </Routes>
                 </div>
+                <Footer/>
             </div>
         </BrowserRouter>
     )

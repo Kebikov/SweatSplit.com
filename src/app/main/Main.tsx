@@ -1,7 +1,6 @@
 import styles from './main.module.css';
-import logo from '@/source/image/logo/logo.png';
 import ScreenAdd from '@/components/screenAdd/ScreenAdd';
-import Button from '@/components/button/Button';
+import settingsImg from '@/source/image/icon/settings.png';
 
 
 const  Main = () => {
@@ -11,7 +10,10 @@ const  Main = () => {
             <div className={styles.subtitle} >Your workout <span>Your rules</span></div>
             <div className={styles.addText} >Create workouts your way. Build custom training plans, track progress, and stay in control of every exercise.</div>
             <ScreenAdd/>
-            <div className={styles.key} >KEY FEATURES</div>
+            <div className={styles.settings} >
+                <img src={settingsImg} className={styles.settings__img} alt='#' />
+                <div className={styles.key} >KEY FEATURES</div>
+            </div>
             <ul className={styles.ul} >
                 <li>Flexible workout builder with full control over exercises</li>
                 <li>Progress tracking for workouts and individual exercises</li>

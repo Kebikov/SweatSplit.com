@@ -14,8 +14,10 @@ const LogoBox = () => {
 const Header = () => {
     return (
         <div className={styles.conteiner} >
-            <LogoBox/>
-            <Menu/>
+            <div className={styles.content} >
+                <LogoBox/>
+                <Menu/>
+            </div>
         </div>
     )
 }
