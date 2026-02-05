@@ -1,14 +1,14 @@
 import styles from './support.module.css';
-import Button from '@/components/button/Button';
+import question from '@/source/image/icon/question.png';
 
 
 const Support = () => {
 
     return (
         <div className={styles.container} >
+            <img src={question} className={styles.question} alt='#' />
             <div className={styles.text} >If you have any questions or issues, contact us:</div>
             <div className={styles.email} >kebikovgen@gmail.com</div>
-            <Button title='home' link='/' />
         </div>
     )
 }

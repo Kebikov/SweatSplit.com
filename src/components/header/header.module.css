@@ -1,0 +1,26 @@
+.conteiner {
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.title {
+    margin-left: 10px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(240, 240, 240);
+}

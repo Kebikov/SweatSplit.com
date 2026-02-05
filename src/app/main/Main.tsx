@@ -8,8 +8,6 @@ const  Main = () => {
 
     return (
         <div className={styles.container} >
-            <img src={logo} className={styles.logo} alt='#' />
-            <div className={styles.title} >SweatSplit</div>
             <div className={styles.subtitle} >Your workout <span>Your rules</span></div>
             <div className={styles.addText} >Create workouts your way. Build custom training plans, track progress, and stay in control of every exercise.</div>
             <ScreenAdd/>
@@ -24,7 +22,6 @@ const  Main = () => {
                 <li>Fast creation of custom exercises with your own images</li>
                 <li>Intuitive controls designed for quick and efficient workout planning</li>
             </ul>
-            <Button title='support' link={'/support'} />
             <div className={styles.soon} >Opening soon!</div>
         </div>
     )

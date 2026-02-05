@@ -8,6 +8,7 @@
 }
 
 .text {
+    margin-top: 10px;
     text-align: center;
     font-family: 'Oswald';
     color: #fff;
@@ -22,4 +23,10 @@
     color: #fff;
     font-size: 22px;
     font-weight: 400;
+}
+
+.question {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
 }
