@@ -1,0 +1,14 @@
+.button {
+    margin-top: 20px;
+    padding: 10px 70px 14px 70px;
+    border-radius: 20px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+
+    background-color: #4992d6;
+
+    cursor: pointer;
+}

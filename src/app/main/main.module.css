@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    padding: 20px 0 20px 0;
+
+    display: flex;
+    flex: 1 1 auto;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.title {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 26px;
+    color: rgb(240, 240, 240);
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 22px;
+    color: #4992d6;
+}
+
+.subtitle span {
+    color: #9ead31;
+}
+
+.addText {
+    padding: 20px 10px 20px 10px;
+    margin-top: 10px;
+    font-family: 'Oswald';
+    text-align: center;
+    line-height: 120%;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(240, 240, 240);
+}
+
+.soon {
+    margin-top: 40px;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+}
+
+.key {
+    margin-top: 20px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+}
+
+.ul {
+    padding: 10px;
+}
+
+.ul li {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Oswald';
+    line-height: 120%;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(240, 240, 240);
+    list-style-type: disc;
+}
