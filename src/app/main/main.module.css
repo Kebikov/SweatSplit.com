@@ -26,8 +26,9 @@
 .subtitle {
     margin-top: 10px;
     font-family: 'Oswald';
-    font-weight: 400;
-    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
     color: var(--color-blue);
 }
 
@@ -38,12 +39,11 @@
 .addText {
     padding: 0px 10px 20px 10px;
     margin-top: 10px;
-    font-family: 'Oswald';
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
     text-align: center;
     line-height: 120%;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--color-white);
 }
 
@@ -71,7 +71,7 @@
     list-style-type: disc;
 }
 
-ul li::marker {
+.ul li::marker {
     color: var(--color-lime);
 }
 
@@ -87,12 +87,14 @@ ul li::marker {
     width: 30px;
     height: 30px;
     object-fit: contain;
+    transform: rotate(5deg);
 }
 
 .key {
     margin-left: 10px;
     font-family: 'Oswald';
-    font-weight: 400;
+    font-style: italic;
+    font-weight: 500;
     font-size: 20px;
-    color: var(--color-white);
+    color: var(--color-blue);
 }

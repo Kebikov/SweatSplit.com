@@ -44,7 +44,8 @@
     --max-width: 1400px;
     --color-lime: #9ead31;
     --color-blue: #4992d6;
-    --color-white: rgb(240, 240, 240);
+    --color-white: rgb(220, 220, 220);
+    --color-text: #a3a3b9;
     --color-background: rgba(26, 26, 26, 1);
     --color-dark-background: rgba(20, 20, 20, 1);
 }

@@ -4,6 +4,7 @@ import Main from './main/Main';
 import Support from "./support/Support";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import PrivacyPolicy from "./privacy-policy/PrivacyPolicy";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
                     <Routes>
                         <Route path="/" element={<Main/>} />
                         <Route path="/support" element={<Support/>} />
+                        <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
                     </Routes>
                 </div>
                 <Footer/>

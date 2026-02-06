@@ -12,12 +12,17 @@ const Menu = () => {
             {
                 location.pathname !== '/'
                 &&
-                <div className={styles.link} onClick={() => navigate('/')} >home</div>
+                <div className={styles.link} onClick={() => navigate('/')} >Home</div>
             }
             {
                 location.pathname !== '/support'
                 &&
-                <div className={styles.link} onClick={() => navigate('/support')} >support</div>
+                <div className={styles.link} onClick={() => navigate('/support')} >Support</div>
+            }
+            {
+                location.pathname !== '/privacy-policy'
+                &&
+                <div className={styles.link} onClick={() => navigate('/privacy-policy')} >Privacy Policy</div>
             }
         </div>
     )

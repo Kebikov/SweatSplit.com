@@ -1,14 +1,45 @@
 import styles from './main.module.css';
 import ScreenAdd from '@/components/screenAdd/ScreenAdd';
 import settingsImg from '@/source/image/icon/settings.png';
+import { motion } from "motion/react";
 
 
 const  Main = () => {
 
     return (
         <div className={styles.container} >
-            <div className={styles.subtitle} >Your workout <span>Your rules</span></div>
-            <div className={styles.addText} >Create workouts your way. Build custom training plans, track progress, and stay in control of every exercise.</div>
+            <motion.div 
+                className={styles.subtitle} 
+                initial={{
+                    y: 20,
+                    opacity: 0
+                }}
+                animate={{
+                    y: 0,
+                    opacity: 1
+                }}
+                transition={{
+                    duration: .7
+                }}
+            >
+                Your workout <span>Your rules</span>
+            </motion.div>
+            <motion.div 
+                className={styles.addText} 
+                initial={{
+                    y: 20,
+                    opacity: 0
+                }}
+                animate={{
+                    y: 0,
+                    opacity: 1
+                }}
+                transition={{
+                    duration: .7
+                }}
+            >
+                Create workouts your way. Build custom training plans, track progress, and stay in control of every exercise.
+            </motion.div>
             <ScreenAdd/>
             <div className={styles.settings} >
                 <img src={settingsImg} className={styles.settings__img} alt='#' />

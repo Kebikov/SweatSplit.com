@@ -1,16 +1,14 @@
 .container {
-    
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
 }
 
 .link {
-    padding: 7px 50px 10px 50px;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 18px;
     color: var(--color-white);
-
-    background-color: var(--color-blue);
-    border-radius: 4px;
 
     cursor: pointer;
 }

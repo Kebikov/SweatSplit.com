@@ -7,19 +7,22 @@ import screen5 from '@/source/image/screenAdd/EN-5.jpg';
 import screen6 from '@/source/image/screenAdd/EN-6.jpg';
 import screen7 from '@/source/image/screenAdd/EN-7.jpg';
 import screen8 from '@/source/image/screenAdd/EN-8.jpg';
+import MotionImg from '../motionImg/MotionImg';
+
 
 const ScreenAdd = () => {
 
     return (
         <div className={styles.container} >
-            <img src={screen1} className={styles.screen} alt='SweatSplit' />
-            <img src={screen5} className={styles.screen} alt='SweatSplit' />
-            <img src={screen4} className={styles.screen} alt='SweatSplit' />
-            <img src={screen2} className={styles.screen} alt='SweatSplit' />
-            <img src={screen3} className={styles.screen} alt='SweatSplit' />
-            <img src={screen6} className={styles.screen} alt='SweatSplit' />
-            <img src={screen7} className={styles.screen} alt='SweatSplit' />
-            <img src={screen8} className={styles.screen} alt='SweatSplit' />
+            <MotionImg src={screen1} />
+            <MotionImg src={screen5} />
+            <MotionImg src={screen4} />
+            <MotionImg src={screen2} />
+
+            <MotionImg src={screen3} />
+            <MotionImg src={screen6} />
+            <MotionImg src={screen7} />
+            <MotionImg src={screen8} />
         </div>
     )
 }
