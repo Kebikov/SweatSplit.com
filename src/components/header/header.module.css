@@ -4,6 +4,10 @@
 
     display: flex;
     justify-content: center;
+
+    position: fixed;
+    z-index: 101;
+    height: 60px;
 }
 
 .content {
@@ -13,6 +17,8 @@
 
     display: flex;
     justify-content: space-between;
+
+    position: relative;
 }
 
 .logoBox {

@@ -10,6 +10,7 @@ const Text = ({children}: {children: React.ReactNode}) => (
 )
 
 
+/** `//*[page] с Privacy Policy` */
 const PrivacyPolicy = () => {
 
     return (

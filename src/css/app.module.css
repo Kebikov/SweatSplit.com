@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    position: relative;
+    z-index: 100;
 }
 
 .main {

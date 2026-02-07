@@ -1,0 +1,43 @@
+.ul {
+    padding: 10px;
+}
+
+.ul li {
+    margin-top: 5px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--color-text);
+    letter-spacing: .5px;
+
+    list-style-type: disc;
+}
+
+.ul li::marker {
+    color: var(--color-lime);
+}
+
+.settings {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings__img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transform: rotate(5deg);
+}
+
+.key {
+    margin-left: 10px;
+    font-family: 'Oswald';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--color-lime);
+}

@@ -1,29 +1,30 @@
 import styles from './menu.module.css';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+// inner
+import { LinkMenu } from './ui/LinkMenu';
+import { Burger } from './ui/Burger';
 
 
+/** `//* Меню` */
 const Menu = () => {
 
-    const navigate = useNavigate();
-    const location = useLocation();
-    console.log(location.pathname); //DELETE_THIS 
+    const [isPress, setIsPress] = useState<boolean>(false);
+
+    const onPress = () => setIsPress(state => !state);
+
+    useEffect(() => {
+        const body = document.body;
+        body.style.overflow = isPress ? 'hidden' : 'auto';
+    }, [isPress]);
+
     return (
         <div className={styles.container} >
-            {
-                location.pathname !== '/'
-                &&
-                <div className={styles.link} onClick={() => navigate('/')} >Home</div>
-            }
-            {
-                location.pathname !== '/support'
-                &&
-                <div className={styles.link} onClick={() => navigate('/support')} >Support</div>
-            }
-            {
-                location.pathname !== '/privacy-policy'
-                &&
-                <div className={styles.link} onClick={() => navigate('/privacy-policy')} >Privacy Policy</div>
-            }
+            <Burger onPress={onPress} isPress={isPress} />
+            <div className={styles.content} style={isPress ? {left: '0%'} : {left: '-100%'}}  onClick={onPress} >
+                <LinkMenu title='Home' url='/' />
+                <LinkMenu title='Support' url='/support' />
+                <LinkMenu title='Privacy Policy' url='/privacy-policy' />
+            </div>
         </div>
     )
 }
