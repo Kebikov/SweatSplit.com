@@ -19,7 +19,7 @@ export const MotionImage: FC<IMotionImage> = ({
     info
 }) => {
 
-    const initialState = {scale: .8, opacity: 0};
+    const initialState = {scale: .7, opacity: 0};
     const finishState = {scale: 1, opacity: 1};
 
     const ref = useRef(null);
