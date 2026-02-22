@@ -10,17 +10,16 @@ const Menu = () => {
 
     const [isPress, setIsPress] = useState<boolean>(false);
 
-    const onPress = () => setIsPress(state => !state);
-
     useEffect(() => {
+        console.log('isPress', isPress); //DELETE_THIS 
         const body = document.body;
         body.style.overflow = isPress ? 'hidden' : 'auto';
     }, [isPress]);
 
     return (
         <div className={styles.container} >
-            <Burger onPress={onPress} isPress={isPress} />
-            <div className={styles.content} style={isPress ? {left: '0%'} : {left: '-100%'}}  onClick={onPress} >
+            <Burger onPress={() => setIsPress(true)} isPress={isPress} />
+            <div className={styles.content} style={isPress ? {left: '0%'} : {left: '-100%'}}  onClick={() => setIsPress(false)} >
                 <LinkMenu title='Home' url='/' />
                 <LinkMenu title='Support' url='/support' />
                 <LinkMenu title='Privacy Policy' url='/privacy-policy' />
