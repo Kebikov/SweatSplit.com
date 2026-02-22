@@ -52,6 +52,37 @@ const PrivacyPolicy = () => {
 
                 <Title>Changes</Title>
                 <Text>This Privacy Policy may be updated from time to time.</Text>
+
+                <Title>Analytics and Usage Data</Title>
+                <Text>We use Firebase Analytics, a service provided by Google LLC, to collect and analyze information about how users interact with the application.</Text>
+
+                <Title>What Data We Collect</Title>
+                <Text>Firebase Analytics may collect the following types of information:</Text>
+                <ul className={style.ul} >
+                    <li>Device identifiers (such as a unique device ID or instance ID)</li>
+                    <li>App usage data (such as screen views, session duration, feature usage)</li>
+                    <li>Interaction events (e.g., onboarding completion, workout start/completion, subscription interactions)</li>
+                    <li>General device information (such as device model, operating system version, app version)</li>
+                </ul>
+                <Text>We do not collect users’ names, email addresses, or other directly identifiable personal information through analytics.</Text>
+
+                <Title>Purpose of Data Collection</Title>
+                <Text>The collected data is used solely for:</Text>
+                <ul className={style.ul} >
+                    <li>Understanding how users interact with the app</li>
+                    <li>Improving app functionality and performance</li>
+                    <li>Fixing issues and optimizing user experience</li>
+                    <li>Measuring feature effectiveness</li>
+                </ul>
+                <Text>We do not use analytics data for advertising purposes and we do not sell personal data.</Text>
+
+                <Title>Third-Party Processing</Title>
+                <Text>Analytics data is processed by Google LLC through Firebase Analytics. Google may process this data in accordance with its own privacy policy:</Text>
+                <Text>https://policies.google.com/privacy</Text>
+
+                <Title>Data Linking and Tracking</Title>
+                <Text>We do not use analytics data to track users across third-party apps or websites. The collected data is not used for cross-app tracking or targeted advertising.</Text>
+
                 <Title>Contact</Title>
                 <Text>If you have questions, contact us at:</Text>
                 <Text>kebikovroma@gmail.com</Text>
