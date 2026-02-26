@@ -3,7 +3,7 @@ import styles from './main.module.css';
 import KeyFeatures from '@/components/keyFeatures/KeyFeatures';
 import TopText from '@/components/topText/TopText';
 import Blocks from '@/components/blocks/Blocks';
-import ComingSoon from '@/components/comingSoon/ComingSoon';
+import DownloadAppBaner from '@/components/DownloadAppBaner/DownloadAppBaner';
 
 
 const  Main = () => {
@@ -11,9 +11,10 @@ const  Main = () => {
     return (
         <div className={styles.container} >
             <TopText/>
-            <ComingSoon/>
+            <DownloadAppBaner/>
             <Blocks/>
             <KeyFeatures/>
+            <DownloadAppBaner/>
         </div>
     )
 }
