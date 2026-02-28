@@ -1,24 +1,27 @@
 import settingsImg from '@/source/image/icon/settings.png';
 import style from './keyFeatures.module.css';
+import { useTranslation } from 'react-i18next';
 
 
 const KeyFeatures = () => {
+
+    const {t} = useTranslation(['[main]']);
 
     return (
         <>
             <div className={style.settings} >
                 <img src={settingsImg} className={style.settings__img} alt='#' />
-                <div className={style.key} >KEY FEATURES</div>
+                <div className={style.key} >{t('[main]:KEY_FEATURES.title')}</div>
             </div>
             <ul className={style.ul} >
-                <li>Flexible workout builder with full control over exercises</li>
-                <li>Progress tracking for workouts and individual exercises</li>
-                <li>Interval training with custom time, weight, and rest for each set</li>
-                <li>Visual barbell weight calculator for fast and accurate setup</li>
-                <li>Exercise management inside workouts</li>
-                <li>Multiple color themes to personalize the app</li>
-                <li>Fast creation of custom exercises with your own images</li>
-                <li>Intuitive controls designed for quick and efficient workout planning</li>
+                <li>{t('[main]:KEY_FEATURES.1')}</li>
+                <li>{t('[main]:KEY_FEATURES.2')}</li>
+                <li>{t('[main]:KEY_FEATURES.3')}</li>
+                <li>{t('[main]:KEY_FEATURES.4')}</li>
+                <li>{t('[main]:KEY_FEATURES.5')}</li>
+                <li>{t('[main]:KEY_FEATURES.6')}</li>
+                <li>{t('[main]:KEY_FEATURES.7')}</li>
+                <li>{t('[main]:KEY_FEATURES.8')}</li>
             </ul>
         </>
     )

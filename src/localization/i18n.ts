@@ -4,6 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import { LANGUAGE_APP } from "./types/language";
 import { main_ru, main_en, main_pl } from "./translations/[main]";
+import { common_en, common_pl, common_ru } from "./translations/[common]";
 
 
 // the translations
@@ -11,13 +12,16 @@ import { main_ru, main_en, main_pl } from "./translations/[main]";
 // or even better, manage them separated from your code: https://react.i18next.com/guides/multiple-translation-files)
 const resources = {
     ru: {
-        '[main]': main_ru
+        '[main]': main_ru,
+        '[common]': common_ru
     },
     en: {
-        '[main]': main_en
+        '[main]': main_en,
+        '[common]': common_en
     },
     pl: {
-        '[main]': main_pl
+        '[main]': main_pl,
+        '[common]': common_pl
     }
 };
 

@@ -1,0 +1,10 @@
+{
+    "menu": {
+        "home": "Home",
+        "support": "Support",
+        "privacy_policy": "Privacy Policy"
+    },
+    "support_page": {
+        "contact": "If you have any questions or issues, contact us:"
+    }
+}

@@ -2,5 +2,83 @@
     "slogan": {
         "1": "Twój trening",
         "2": "Twoje zasady"
+    },
+    "top-text": "Twórz treningi po swojemu. Buduj własne plany treningowe, śledź postępy i miej pełną kontrolę nad każdym ćwiczeniem.",
+    "Block_1": {
+        "title": {
+            "1": "Elastyczny kreator",
+            "2": "treningów"
+        },
+        "text": "Twórz treningi dopasowane do swojego stylu. Buduj i organizuj sesje według grup mięśniowych, dni treningowych lub celów, mając pełną kontrolę nad każdym ćwiczeniem."
+    },
+    "Block_2": {
+        "title": {
+            "1": "Śledź swoje",
+            "2": "postępy"
+        },
+        "text": "Monitoruj postępy dzięki czytelnym statystykom i wizualnym analizom. Śledź treningi, czas, kalorie, objętość i balans grup mięśniowych w jednym miejscu."
+    },
+
+    "Block_3": {
+        "title": {
+            "1": "Twórz",
+            "2": "treningi interwałowe",
+            "3": "po swojemu"
+        },
+        "text": "Przejmij kontrolę nad treningiem interwałowym. Łącz intensywność, czas i regenerację, tworząc treningi dopasowane do swoich celów — nie odwrotnie."
+    },
+
+    "Block_4": {
+        "title": {
+            "1": "Prosta",
+            "2": "konfiguracja ciężaru",
+            "3": "i kalkulacja"
+        },
+        "text": "Ustaw swój ciężar roboczy w kilka sekund dzięki wizualnemu kalkulatorowi sztangi. Dodawaj talerze, modyfikuj gryf i od razu otrzymuj dokładną wagę — bez liczenia w głowie, bez pomyłek."
+    },
+
+    "Block_5": {
+        "title": {
+            "1": "Elastyczny",
+            "2": "kreator treningów"
+        },
+        "text": "Planuj trening po swojemu. Dodawaj ćwiczenia, zarządzaj seriami i powtórzeniami, śledź ciężar i kontroluj przerwy w prostym, przejrzystym interfejsie."
+    },
+
+    "Block_6": {
+        "title": {
+            "1": "Wybierz swój",
+            "2": "motyw kolorystyczny"
+        },
+        "text": "Spersonalizuj aplikację, wybierając spośród różnych motywów kolorystycznych dopasowanych do Twojego stylu, otoczenia i celu treningowego. Trenuj w interfejsie, który jest zawsze wygodny i czytelny."
+    },
+
+    "Block_7": {
+        "title": {
+            "1": "Twórz",
+            "2": "treningi szybko",
+            "3": "z dowolnymi zdjęciami"
+        },
+        "text": "Dodaj ćwiczenie z dowolnym obrazem, a następnie w kilka sekund ustaw serie, powtórzenia, ciężar i czas przerwy. Prosta konfiguracja, pełna kontrola."
+    },
+
+    "Block_8": {
+        "title": {
+            "1": "Zarządzaj ćwiczeniami",
+            "2": "z łatwością"
+        },
+        "text": "Organizuj trening bez wysiłku. Zmieniaj kolejność ćwiczeń, edytuj szczegóły lub usuwaj je w kilka sekund dzięki prostym gestom."
+    },
+
+    "KEY_FEATURES": {
+        "title": "NAJWAŻNIEJSZE FUNKCJE",
+        "1": "Elastyczny kreator treningów z pełną kontrolą nad ćwiczeniami",
+        "2": "Śledzenie postępów treningów i pojedynczych ćwiczeń",
+        "3": "Trening interwałowy z własnym czasem, ciężarem i przerwą dla każdej serii",
+        "4": "Wizualny kalkulator sztangi do szybkiego i precyzyjnego ustawiania ciężaru",
+        "5": "Zarządzanie ćwiczeniami w ramach treningu",
+        "6": "Wiele motywów kolorystycznych do personalizacji aplikacji",
+        "7": "Szybkie tworzenie własnych ćwiczeń z użyciem własnych zdjęć",
+        "8": "Intuicyjne sterowanie zaprojektowane do szybkiego i efektywnego planowania treningu"
     }
 }

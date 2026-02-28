@@ -23,7 +23,6 @@ export const OneLanguage: FC<ILng> = ({
     const {dispatchContext} = useContextApp();
 
     const onPress = async () => {
-        console.log(123); //DELETE_THIS 
         await i18n.changeLanguage(value);
         dispatchContext({type: 'SET_IS_SHOW_SelectLocalization', payload: false});
     }

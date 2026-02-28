@@ -2,5 +2,84 @@
     "slogan": {
         "1": "Your workout",
         "2": "Your rules"
+    },
+    "top-text": "Create workouts your way. Build custom training plans, track progress, and stay in control of every exercise.",
+    "Block_1": {
+        "title": {
+            "1": "flexible workout",
+            "2": "builder"
+        },
+        "text": "Create workouts that match your training style. Build and organize sessions by muscle groups, training days, or goals with full control over every exercise."
+    },
+
+    "Block_2": {
+        "title": {
+            "1": "track your workout",
+            "2": "progress"
+        },
+        "text": "Monitor your training progress with clear stats and visual insights. Track workouts, time, calories, volume, and muscle group balance all in one place."
+    },
+
+    "Block_3": {
+        "title": {
+            "1": "create",
+            "2": "interval workouts",
+            "3": "your way"
+        },
+        "text": "Take control of your interval training. Mix intensity, timing, and recovery to create workouts that fit your goals — not the other way around."
+    },
+
+    "Block_4": {
+        "title": {
+            "1": "easy",
+            "2": "weight setup",
+            "3": "& calculation"
+        },
+        "text": "Set your working weight in seconds with a visual barbell calculator. Add plates, adjust the bar, and get precise totals instantly no mental math, no mistakes."
+    },
+
+    "Block_5": {
+        "title": {
+            "1": "flexible",
+            "2": "workout builder"
+        },
+        "text": "Plan your workout your way. Add exercises, manage sets and reps, track weight, and control rest timers in a simple, focused interface."
+    },
+
+    "Block_6": {
+        "title": {
+            "1": "choose your",
+            "2": "color theme"
+        },
+        "text": "Personalize the app with multiple color themes to match your style, environment, and training focus. Train in an interface that feels comfortable and clear every time."
+    },
+
+    "Block_7": {
+        "title": {
+            "1": "create",
+            "2": "workouts quickly",
+            "3": "with any images"
+        },
+        "text": "Add an exercise using any image, then define sets, reps, weight, and rest time in seconds. Simple setup, full control."
+    },
+
+    "Block_8": {
+        "title": {
+            "1": "manage exercises",
+            "2": "with ease"
+        },
+        "text": "Organize your workout effortlessly. Reorder exercises, edit details, or remove them in seconds with simple gestures."
+    },
+
+    "KEY_FEATURES": {
+        "title": "KEY FEATURES",
+        "1": "Flexible workout builder with full control over exercises",
+        "2": "Progress tracking for workouts and individual exercises",
+        "3": "Interval training with custom time, weight, and rest for each set",
+        "4": "Visual barbell weight calculator for fast and accurate setup",
+        "5": "Exercise management inside workouts",
+        "6": "Multiple color themes to personalize the app",
+        "7": "Fast creation of custom exercises with your own images",
+        "8": "Intuitive controls designed for quick and efficient workout planning"
     }
 }

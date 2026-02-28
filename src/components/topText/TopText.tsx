@@ -15,7 +15,7 @@ const TopText = () => {
                 {t('[main]:slogan.1')} <span>{t('[main]:slogan.2')}</span>
             </MotionText>
             <MotionText className={style.addText} >
-                Create workouts your way. Build custom training plans, track progress, and stay in control of every exercise.
+                {t('[main]:top-text')}
             </MotionText>
         </div>
     )
