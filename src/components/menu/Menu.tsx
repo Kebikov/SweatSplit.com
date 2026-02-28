@@ -11,7 +11,6 @@ const Menu = () => {
     const [isPress, setIsPress] = useState<boolean>(false);
 
     useEffect(() => {
-        console.log('isPress', isPress); //DELETE_THIS 
         const body = document.body;
         body.style.overflow = isPress ? 'hidden' : 'auto';
     }, [isPress]);

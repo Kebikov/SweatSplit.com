@@ -1,0 +1,47 @@
+.container {
+    position: fixed;
+    z-index: 102;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.4s ease;
+}
+
+.content {
+    padding: 40px 70px;
+    border-radius: 20px;
+    /* background-color: rgba(0, 0, 0, .2); */
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, .05);
+}
+
+.what {
+    font-size: 22px;
+}
+
+.lng {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    border-radius:  50px;
+}
+
+.title {
+    font-size: 16px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+}

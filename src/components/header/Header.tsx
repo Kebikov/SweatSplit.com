@@ -1,6 +1,8 @@
 import styles from './header.module.css';
 import logo from '@/source/image/logo/logo.png';
 import Menu from '../menu/Menu';
+import LocalizationFlag from '../LocalizationFlag/LocalizationFlag';
+
 
 const LogoBox = () => {
     return (
@@ -15,7 +17,10 @@ const Header = () => {
     return (
         <div className={styles.conteiner} >
             <div className={styles.content} >
-                <LogoBox/>
+                <div className={styles.box}>
+                    <LogoBox/>
+                    <LocalizationFlag/>
+                </div>
                 <Menu/>
             </div>
         </div>

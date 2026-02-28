@@ -2,6 +2,7 @@ import style from './downloadAppBaner.module.css';
 import baner from '../../source/image/any/3.png';
 import { MotionImage } from '@/components/motionElemens';
 
+
 const DownloadAppBaner = () => {
 
     return (

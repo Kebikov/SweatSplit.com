@@ -21,6 +21,12 @@
     position: relative;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .logoBox {
     display: flex;
     align-items: center;
